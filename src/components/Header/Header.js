@@ -7,6 +7,7 @@ const Header = props => (
     <div className="scores">
       Score: {props.score} Highscore: {props.highscore}
     </div>
+    <div className="details"></div>
   </div>
 );
 

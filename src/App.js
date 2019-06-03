@@ -6,7 +6,7 @@ import cards from "./cards.json";
 import "./App.css";
 
 class App extends Component {
-  // Setting this.state.cards to the cards json array
+
   state = {
     cards,
     score: 0,
@@ -15,7 +15,7 @@ class App extends Component {
 
   gameOver = () => {
     if (this.state.score > this.state.highscore) {
-      this.setState({highscore: this.state.score}, function() {
+      this.setState({highscore: this.state.score}, () => {
         console.log(this.state.highscore);
       });
     }
@@ -32,7 +32,7 @@ class App extends Component {
       if (o.id === id) {
         if(cards[i].count === 0){
           cards[i].count = cards[i].count + 1;
-          this.setState({score : this.state.score + 1}, function(){
+          this.setState({score : this.state.score + 1}, () => {
             console.log(this.state.score);
           });
           this.state.cards.sort(() => Math.random() - 0.5)
@@ -43,11 +43,11 @@ class App extends Component {
       }
     });
   }
-  // Map over this.state.cards and render a cardCard component for each card object
+  
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>
+        <Header score={this.state.score} highscore={this.state.highscore}>GWAR Click Game</Header>
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
