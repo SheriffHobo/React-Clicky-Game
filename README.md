@@ -5,7 +5,7 @@ Can you achieve a high score of 12?
 
 Don't click the same card twice!
 
-Technologies used:
+## Technologies used:
 * Reactjs
 
-Use this link to play: 
+Play here: 
