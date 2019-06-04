@@ -7,5 +7,6 @@ Don't click the same card twice!
 
 ## Technologies used:
 * Reactjs
+* Github Pages
 
 Play here: 
