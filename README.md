@@ -1,8 +1,11 @@
 # React Clicky Game
 This is a simple memory challenge game written in React
 
+Can you achieve a high score of 12?
+
 Don't click the same card twice!
 
-Use this link to play:
+Technologies used:
+* Reactjs
 
-https://react-clicky-game.herokuapp.com/
+Use this link to play: 
