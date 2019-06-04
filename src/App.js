@@ -47,7 +47,11 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>GWAR Click Game</Header>
+        <Header score={this.state.score} highscore={this.state.highscore}>GWAR Click Game
+          <div className="rules">
+            Click a Scumdog to play. Try not to click on the same Scumdog twice, or you lose.
+          </div>
+        </Header>
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
