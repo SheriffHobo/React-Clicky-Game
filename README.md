@@ -9,4 +9,4 @@ Don't click the same card twice!
 * Reactjs
 * Github Pages
 
-Play here: 
+Play here: [GWAR Clicky Game] (https://sheriffhobo.github.io/React-Clicky-Game/)
